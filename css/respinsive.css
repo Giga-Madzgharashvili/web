@@ -1,0 +1,111 @@
+@media (max-width: 1088px){
+    .images {
+        width: 30%;
+    }
+    .images img {
+        width: 100%;
+    }
+    .navigation {
+        width: 60%;
+    }
+    .footer-block {
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .footer-wrapper {
+        height: auto;
+    }
+    .right-block {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .left-block {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        max-width: 100%;
+    }
+    .soc-icons{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 940px){
+    .foot-copy {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block, .right-block {
+       width: 100%;
+    }
+    .footer-center {
+        margin: 0 60px;
+    }
+}
+@media (max-width: 768px){
+    .navigation {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+    }
+    .h3-title, .sec2-h3-title {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .form-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-coll {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .cont-forms, .btn {
+        max-width: 100%;
+    }
+    .image-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .images {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cont-wrapper{
+        display: none;
+    }
+}
+
+@media (max-width: 510px) {
+    .footer-right {
+        display: none;
+    }
+    .footer-right-responsive{
+        display: block;
+        
+    }
+    .h5-footer {
+        font-size: 13px;
+        line-height: 5px;
+    }
+    .resp-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-block .footer-right-responsive ul li {
+        margin-bottom: 25px;
+      }
+    }
+      @media (max-width: 478px) {
+        .footer-left {
+            display: none;
+        }
+      }
